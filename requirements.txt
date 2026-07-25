@@ -1,0 +1,7 @@
+# 卫星查看器 Python CLI 版依赖
+# 通过: pip install -r requirements.txt
+# 推荐通过 install.py 安装 — 它只会装缺失的、不会重复下载
+
+requests>=2.28.0     # HTTP 客户端 (拉 CelesTrak TLE)
+skyfield>=1.46       # 高精轨道推算 (JPL/NORAD SGP4)
+tabulate>=0.9.0      # 终端表格输出 (可选;若没有会 fallback 到纯文本)
